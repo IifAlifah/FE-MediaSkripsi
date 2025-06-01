@@ -1,0 +1,126 @@
+[
+    {
+      "id": 1,
+      "question": "Ketika JavaScript menambahkan elemen baru ke halaman web menggunakan DOM, maka elemen tersebut …. ",
+      "options": [
+        "Akan ditampilkan di halaman setelah halaman dimuat ulang",
+        "Ditambahkan secara dinamis tanpa perlu memuat ulang halaman",
+        "Tidak akan terlihat sampai JavaScript dinonaktifkan",
+        "Akan menimpa semua elemen yang ada",
+        "Akan disimpan di server terlebih dahulu"
+      ],
+      "answer": "Ditambahkan secara dinamis tanpa perlu memuat ulang halaman"
+    },
+    {
+      "id": 2,
+      "question": "Contoh penggunaan DOM adalah …. ",
+      "options": [
+        "Menyimpan data ke dalam MySQL",
+        "Mengubah warna tombol saat diklik",
+        "Mengatur router jaringan",
+        "Menghapus file local",
+        "Mengubah BIOS"
+      ],
+      "answer": "Mengubah warna tombol saat diklik"
+    },
+    {
+      "id": 3,
+      "question": "Perbedaan utama antara innerHTML dan textContent dalam DOM adalah …. ",
+      "options": [
+        "innerHTML mengembalikan hanya teks dalam elemen, sementara textContent mengembalikan teks beserta elemen HTML yang ada.",
+        "textContent mengembalikan teks tanpa elemen HTML, sementara innerHTML mengembalikan teks beserta elemen HTML.",
+        "innerHTML hanya digunakan untuk elemen <p>, sedangkan textContent dapat digunakan untuk semua elemen.",
+        "innerHTML lebih cepat daripada textContent dalam mengambil teks dari elemen.",
+        "Tidak ada perbedaan, keduanya memberikan output yang sama."
+      ],
+      "answer": "textContent mengembalikan teks tanpa elemen HTML, sementara innerHTML mengembalikan teks beserta elemen HTML."
+    },
+    {
+      "id": 4,
+      "question": "Dibawah ini ini yang merupakan atribut node adalah …. ",
+      "options": [
+        "<p>",
+        "class=\"example\"",
+        "\"Hello, world!\"",
+        "<div>",
+        "<ul>"
+      ],
+      "answer": "class=\"example\""
+    },
+    {
+      "id": 5,
+      "question": "Perhatikan potongan kode html dibawah ini!Elemen yang merupakan saudara dari <h1> pada struktur diatas adalah …. ",
+      "image": "/kuis/kuis2_no5.png",
+      "options": [
+        "<body>",
+        "<p>",
+        "<div>",
+        "<p> dan <div>",
+        "Tidak ada"
+      ],
+      "answer": "<p> dan <div>"
+    },
+    {
+      "id": 6,
+      "question": "Node yang digunakan untuk menyimpan teks dalam elemen HTML yaitu …. ",
+      "options": [
+        "Element Node",
+        "Attribute Node",
+        "Text Node",
+        "Root Node",
+        "Sibling Node"
+      ],
+      "answer": "Text Node"
+    },
+    {
+      "id": 7,
+      "question": "Yang termasuk metode DOM berikut ini adalah …….",
+      "options": [
+        "innerText",
+        "fontSize",
+        "getElementById()",
+        "title",
+        "color"
+      ],
+      "answer": "getElementById()"
+    },
+    {
+      "id": 8,
+      "question": "Dibawah ini pernyataan yang benar mengenai hubungan antar elemen berdasarkan struktur DOM dari kode berikut yaitu ....",
+      "image": "/kuis/kuis2_no8.png",
+      "options": [
+        "<body> adalah induk dari <header> dan <nav>",
+        "<ul> adalah induk dari <header>",
+        "<header> adalah induk dari <nav>",
+        "<li> adalah saudara dari <ul>",
+        "<header> adalah saudara dari <body>"
+      ],
+      "answer": "<header> adalah induk dari <nav>"
+    },
+    {
+      "id": 9,
+      "question": "Perhatikan kode dibawah ini! Dari kode tersebut, jenis node yang terdapat di dalamnya adalah ....",
+      "image": "/kuis/kuis2_no9.png",
+      "options": [
+        "Satu element node",
+        "Element dan attribute node",
+        "Hanya text node",
+        "Element dan text node",
+        "Element, attribute, dan text node"
+      ],
+      "answer": "Element dan text node"
+    },
+    {
+      "id": 10,
+      "question": "Di bawah ini yang merupakan properti DOM adalah …. ",
+      "options": [
+        "getElementById()",
+        "addEventListener()",
+        "appendChild()",
+        "innerHTML",
+        "setAttribute()"
+      ],
+      "answer": "innerHTML"
+    }
+  ]
+  

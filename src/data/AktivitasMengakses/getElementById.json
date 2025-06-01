@@ -1,0 +1,23 @@
+[
+    {
+      "question": "Lengkapi potongan kode berikut untuk mengakses elemen <p> dengan Id paragraf!",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Aktivitas: Akses dan Tampilkan ID</title>\n</head>\n<body>\n    <p id=\"paragraf\">Ini adalah paragraf yang akan diakses.</p>\n    <script>\n        var paragrafElemen = document.input(\"paragraf\");  \n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementById"]
+    },
+    {
+      "question": "Lengkapi kode berikut untuk mengakses elemen dengan id 'message' dan menampilkan elemen yang diakses dalam alert!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Aktivitas 2</title>\n</head>\n<body>\n\n    <div id=\"message\">Halo, selemat datang</div>\n    <div id=\"content\">Konten utama halaman</div>\n\n    <script>\n        var element = input.input(\"input\");\n        alert(input.innerHTML);\n    </script>\n\n</body>\n</html>",
+      "correctAnswers": ["document", "getElementById", "message", "element"]
+    },
+    {
+      "question": "Lengkapilah potongan kode berikut ini untuk memeriksa apakah elemen dengan id hasil ada, lalu cetak ke konsol!",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Aktivitas 3</title>\n</head>\n<body>\n    <div id=\"hasil\">Data ditemukan</div>\n    <script>\n        var hasil = document.input(\"input\");\n\n        if (input != null) {\n            console.log(\"Elemen ditemukan!\");\n        }\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementById", "hasil", "hasil"]
+    },
+    {
+      "question": "Lengkapilah tiga baris kode berikut ini untuk mengambil isi dari elemen <h1 id=\"judul\"> dan menampilkannya di konsol!",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Judul Halaman</title>\n</head>\n<body>\n    <h1 id=\"judul\">Selamat Datang</h1>\n    <script>\n        var elemen = document.input(\"input\");\n        var isiJudul = input.input;\n        console.log(isiJudul);\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementById", "judul", "elemen", "textContent"]
+    }
+  ]
+  

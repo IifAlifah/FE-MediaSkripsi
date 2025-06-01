@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Lengkapi potongan kode berikut untuk mengakses elemen pertama dengan tag p dan menampilkan teksnya!",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Latihan</title>\n</head>\n<body>\n    <p>Paragraf pertama</p>\n    <p>Paragraf kedua</p>\n\n    <script>\n        var paragraph = input;\n        alert(paragraph.innerHTML);\n    </script>\n</body>\n</html>",
+        "correctAnswers": ["document.getElementsByTagName(\"p\")[0]"]
+    },
+    {
+      "question": "Lengkapi potongan kode berikut untuk mengakses semua elemen dengan tag li di dalam elemen dengan ID menu dan menampilkan teks dari masing-masing elemen!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Latihan</title>\n</head>\n<body>\n    <ul id=\"menu\">\n        <li>Menu 1</li>\n        <li>Menu 2</li>\n        <li>Menu 3</li>\n    </ul>\n\n    <script>\n        var menuItems = input;\n        menuItems.forEach(function(item, index) {\n            alert(\"Menu ke-\" + (index + 1) + \": \" + item.innerHTML);\n        });\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["document.querySelectorAll(\"#menu li\")]"]
+    }
+]
+  

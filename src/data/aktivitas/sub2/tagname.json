@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Lengkapi potongan kode berikut untuk mengakses elemen <span> pada indeks ke-1!",
+        "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Soal 4</title>\n</head>\n<body>\n\n    <span>Span pertama</span>\n    <span>Span kedua</span>\n    <span>Span ketiga</span>\n\n    <script>\n        var elemenKe1 = document.input; \n    </script>\n\n</body>\n</html>",
+        "correctAnswers": ["getElementsByTagName(\"span\")[0]"]
+    },
+    {
+      "question": "Tuliskan kode untuk mengakses teks dari elemen <h2> pertama!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    <script>\n    var headings = document.getElementsByTagName('h2');\n    var firstHeadingText = input;\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["headings[0]"]
+    }
+]
+  

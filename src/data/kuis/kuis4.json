@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "Lengkapi kode JavaScript agar teks dalam paragraf yang memiliki id \"pesan\" berubah menjadi \"Halo Dunia!\"",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Ubah Teks</title>\n</head>\n<body>\n    <p id=\"pesan\">Teks lama</p>\n    <script>\n        var teks= document.getElementById(\"pesan\");\n        input.input = \"Halo Dunia!\";\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["teks", "textContent"]
+    },
+    {
+      "id": 2,
+      "question": "Lengkapi kode berikut agar elemen <img> dengan id \"logo\" diberi atribut \"alt\" bernilai \"Logo Situs\"",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Set Atribut</title>\n</head>\n<body>\n    <img id=\"logo\">\n    <script>\n        var gambar = document.getElementById(\"logo\");\n        gambar.input(\"alt\", \"input\");\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["setAttribute", "Logo Situs"]
+    },
+    {
+      "id": 3,
+      "question": "Lengkapi kode dibawah ini agar sebuah elemen <li> baru berisi teks \"Item 3\" ditambahkan ke dalam elemen \"<ul>\" yang sudah ada.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Tambah Elemen</title>\n</head>\n<body>\n    <ul id=\"daftar\">\n        <li>Item 1</li>\n        <li>Item 2</li>\n    </ul>\n    <script>\n        var ul = document.getElementById(\"daftar\");\n        var itemBaru = document.input(\"li\");\n        itemBaru.textContent = \"Item 3\";\n        ul.input(itemBaru);\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["createElement", "appendChild"]
+    },
+    {
+      "id": 4,
+      "question": "Lengkapi kode di bawah ini agar elemen dengan id \"hapus\" dihapus dari DOM.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Hapus Elemen</title>\n</head>\n<body>\n    <div id=\"hapus\">Elemen yang akan dihapus</div>\n    <script>\n        var elemen = document.getElementById(\"hapus\");\n        elemen.input();\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["remove"]
+    },
+    {
+      "id": 5,
+      "question": "Lengkapi kode di bawah ini agar warna teks dari elemen dengan id \"judul\" diubah menjadi warna merah.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Ubah Gaya</title>\n</head>\n<body>\n    <h1 id=\"judul\">Selamat Datang</h1>\n    <script>\n        var teks = document.getElementById(\"judul\");\n        input.input.color = \"red\";\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["teks", "style"]
+    }
+  ]
+  

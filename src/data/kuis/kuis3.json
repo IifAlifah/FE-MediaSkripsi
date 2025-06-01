@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Lengkapi kode berikut untuk mengakses elemen paragraf dengan id \"deskripsi\".",
+    "code": "<p id=\"deskripsi\">Ini adalah deskripsi produk.</p>\n\n<script>\n    var teks = document.input(\"input\");\n</script>",
+    "correctAnswers": ["getElementById", "deskripsi"]
+  },
+  {
+    "id": 2,
+    "question": "Lengkapi kode berikut untuk mengakses elemen \"kedua\" dengan class \"item\".",
+    "code": "<div class=\"item\">Item A</div>\n<div class=\"item\">Item B</div>\n\n<script>\n    var items = document.input(\"input\");\n    console.log(input[input].textContent);\n</script>",
+    "correctAnswers": ["getElementsByClassName", "item", "items", "1"]
+  },
+  {
+    "id": 3,
+    "question": "Lengkapi potongan kode berikut untuk mengakses semua elemen tag \"<p>\", lalu tampilkan teks \"Paragraf Dua\".",
+    "code": "<p>Paragraf Satu</p>\n<p>Paragraf Dua</p>\n\n<script>\n    var text = document.input(\"p\");\n    alert(input[input].textContent);\n</script>",
+    "correctAnswers": ["getElementsByTagName", "text", "1"]
+  },
+  {
+    "id": 4,
+    "question": "Lengkapi kode berikut untuk mengakses elemen <p> di dalam <div> dengan id \"kontainer\"menggunakan querySelector",
+    "code": "<div id=\"kontainer\">\n    <p>Isi Kontainer</p>\n</div>\n\n<script>\n    var elemen = document.input(\"input\");\n    alert(elemen.input);\n</script>",
+    "correctAnswers": ["querySelector", "#kontainer p", "textContent"]
+  },
+  {
+    "id": 5,
+    "question": "Lengkapi kode berikut untuk menampilkan \"elemen induk\" dari elemen dengan id \"first\" pada elemen dengan id \"output\":",
+    "code": "<html lang=\"en\">\n<body>\n    <div id=\"parent\">\n        <p id=\"first\">Paragraf pertama</p>\n        <p id=\"second\">Paragraf kedua</p>\n    </div>\n\n    <p id=\"output\"></p>\n\n    <script>\n        let child = document.input(\"first\");\n        let parent = input.input; \n        document.getElementById(\"output\").textContent = \"Induk dari #first adalah: \" + parent.nodeName;\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["getElementById", "child", "parentNode"]
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Lengkapi potongan kode berikut untuk mengakses elemen kedua dan menampilkan teksnya dengan alert.!",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    <div class=\"item\">Item 1</div>\n    <div class=\"item\">Item 2</div>\n    <div class=\"item\">Item 3</div>\n\n    <script>\n        var items = document.input('item');\n        alert(input);\n    </script>\n</body>\n</html>",
+        "correctAnswers": ["getElementsByClassName", "items[1].innerHTML"]
+    },
+    {
+      "question": "Tuliskan kode untuk mengakses teks dari elemen <h2> pertama!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    <script>\n    var headings = document.getElementsByTagName('h2');\n    var firstHeadingText = (input);\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["headings[0]"]
+    }
+]
+  

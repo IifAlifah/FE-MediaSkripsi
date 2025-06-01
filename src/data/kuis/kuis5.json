@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Lengkapi kode di bawah ini agar ketika kursor mouse masuk ke dalam elemen dengan id #box, latar belakang elemen tersebut berubah menjadi hijau dan muncul pesan 'Mouse berada di atas elemen'.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"box\" style=\"width: 200px; height: 100px; background-color: lightblue;\">\n        Arahkan kursor ke sini!\n    </div>\n    \n    <script>\n        document.getElementById(\"box\").input(\"input\", function() {\n          this.style.backgroundColor = \"green\";\n          alert(\"Mouse berada di atas elemen\");\n        });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["addEventListener", "mouseover"]
+  },
+  {
+    "id": 2,
+    "question": "Lengkapi kode berikut untuk menangani event klik dua kali pada tombol",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button id=\"btn\">Klik dua kali</button>\n    <script>\n    const btn = document.getElementById(\"btn\");\n    btn.input = function() {\n        alert(\"Tombol diklik dua kali!\");\n    };\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["ondblclick"]
+  },
+  {
+    "id": 3,
+    "question": "Lengkapi kode berikut untuk menangani event klik menggunakan addEventListener.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button id=\"clickMe\">Klik Saya</button>\n    <script>\n    const button = document.getElementById(\"clickMe\");\n\n    input.input(\"click\", function() {\n        console.log(\"Button telah diklik!\");\n    });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["button", "addEventListener"]
+  },
+  {
+    "id": 4,
+    "question": "Lengkapi kode di bawah ini dengan properti event yang sesuai agar tombol menampilkan pesan ketika diklik.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button input=\"alert('Diklik')\">Klik Saya</button>\n    <script>\n    const tombol = document.querySelector(\"button\");\n    tombol.input = function() {\n        console.log(\"Diklik lagi\");\n    };\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["onclick", "onclick"]
+  },
+  {
+    "id": 5,
+    "question": "Lengkapi kode berikut agar saat tombol diklik, tidak terjadi reload halaman dan event tidak naik ke elemen div",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"kotak\">\n        <form id=\"formulir\">\n          <button id=\"btn\">Kirim</button>\n        </form>\n    </div>\n    <script>\n        document.getElementById(\"btn\").addEventListener(\"click\", function(e) {\n          e.input();\n          e.input(); \n          alert(\"Tombol diklik\");\n        });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["preventDefault", "stopPropagation"]
+  }
+]

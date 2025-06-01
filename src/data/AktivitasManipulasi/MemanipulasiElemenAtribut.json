@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Lengkapi kode di bawah ini agar elemen dengan id \"box\" mendapatkan atribut class baru dengan nilai \"highlighted\".",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n  <div id=\"box\">Kotak</div>\n  <script>\n    var box = document.getElementById(\"box\");\n    box.setAttribute(\"input\", \"input\");\n  </script>\n</body>\n</html>",
+      "correctAnswers": ["class", "highlighted"]
+    },
+    {
+      "question": "Lengkapi kode dibawah ini agar tautan berubah ke https://sekolah.id dan memiliki atribut data-level \"admin\".",
+      "code": "<!DOCTYPE html>\n<html>\n<body>\n  <a id=\"tautan\" href=\"#\">Klik di sini</a>\n  <script>\n    var link = document.getElementById(\"tautan\");\n    link.href = \"input\";\n    link.input(\"input\", \"input\");\n  </script>\n</body>\n</html>",
+      "correctAnswers": ["https://sekolah.id", "setAttribute", "data-level", "admin"]
+    },
+    {
+      "question": "Lengkapi kode dibawah ini agar atribut class pada <div> dihapus.",
+      "code": "<!DOCTYPE html>\n<html>\n<body>\n  <div id=\"box\" class=\"highlight\">Kotak</div>\n  <script>\n    var kotak = document.getElementById(\"box\");\n    kotak.input(\"input\");\n  </script>\n</body>\n</html>",
+      "correctAnswers": ["removeAttribute", "class"]
+    }
+  ]
+  

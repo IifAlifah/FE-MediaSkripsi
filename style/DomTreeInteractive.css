@@ -1,0 +1,60 @@
+.dom-tree-container {
+    padding: 20px;
+    font-family: monospace;
+  }
+  
+  .code-area {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    padding: 20px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    position: relative;
+  }
+  
+  .dom-node {
+    position: relative;
+    display: block;
+    margin: 4px 0;
+    padding: 2px 6px;
+    transition: background-color 0.2s;
+  }
+  
+  .dom-node.hovered {
+    background-color: #1e81f3;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .inline-tooltip {
+    position: absolute;
+    bottom: 100%; /* Munculkan di atas node */
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px); /* Posisikan tooltip di tengah dan sedikit lebih tinggi */
+    background: #444;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .judul {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Montserrat", serif;;
+  }
+  
+  .pengantar {
+    font-size: 18px;
+    text-align: justify;
+    line-height: "1.8";
+    margin-bottom: 20px;
+    color: #555;
+    font-family: "Montserrat", serif;
+  }
+  

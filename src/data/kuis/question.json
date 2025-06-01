@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Ketika JavaScript menambahkan elemen baru ke halaman web menggunakan DOM, maka elemen tersebut …. ",
+    "options": [
+      "Akan ditampilkan di halaman setelah halaman dimuat ulang",
+      "Ditambahkan secara dinamis tanpa perlu memuat ulang halaman",
+      "Tidak akan terlihat sampai JavaScript dinonaktifkan",
+      "Akan menimpa semua elemen yang ada",
+      "Akan disimpan di server terlebih dahulu"
+    ],
+    "answer": "Ditambahkan secara dinamis tanpa perlu memuat ulang halaman"
+  },
+  {
+    "id": 2,
+    "question": "Dalam DOM, perubahan konten HTML dapat dilakukan dengan …. ",
+    "options": [
+      "Memuat ulang seluruh halaman web",
+      "Menggunakan protokol komunikasi server",
+      "Memodifikasi node elemen menggunakan JavaScript",
+      "Mengubah atribut CSS secara manual",
+      "Menyimpan elemen web di database"
+    ],
+    "answer": "Memodifikasi node elemen menggunakan JavaScript"
+  },
+  {
+    "id": 3,
+    "question": "Manakah dari pernyataan berikut yang tidak benar tentang DOM …. ",
+    "options": [
+      "DOM memungkinkan JavaScript untuk berinteraksi dengan elemen HTML",
+      "DOM menggambarkan elemen HTML sebagai node dalam struktur pohon",
+      "Perubahan DOM hanya dapat dilakukan melalui CSS",
+      "DOM memungkinkan manipulasi elemen secara dinamis tanpa memuat ulang halaman",
+      "Setiap elemen HTML direpresentasikan sebagai node dalam DOM"
+    ],
+    "answer": "Perubahan DOM hanya dapat dilakukan melalui CSS"
+  },
+  {
+    "id": 4,
+    "question": "Dibawah ini yang merupakan atribut node adalah …. ",
+    "options": [
+      "<p>",
+      "class=\"example\"",
+      "\"Hello, world!\"",
+      "<div>",
+      "<ul>"
+    ],
+    "answer": "class=\"example\""
+  },
+  {
+    "id": 5,
+    "question": "Perhatikan struktur HTML dibawah ini! Elemen yang merupakan saudara dari <h1> pada struktur diatas adalah …. ",
+    "options": [
+      "<body>",
+      "<p>",
+      "<div>",
+      "<p> dan <div>",
+      "Tidak ada"
+    ],
+    "answer": "<p> dan <div>"
+  },
+  {
+    "id": 6,
+    "question": "Elemen <ul> memiliki dua <li> sebagai anak. Hubungan antara kedua <li> adalah …. ",
+    "options": [
+      "Induk-anak",
+      "Saudara",
+      "Akar-anak",
+      "Tidak ada hubungan",
+      "Induk-akar"
+    ],
+    "answer": "Saudara"
+  },
+  {
+    "id": 7,
+    "question": "Jika elemen <title> berada di dalam <head>, maka hubungan keduanya adalah …. ",
+    "options": [
+      "Saudara",
+      "Induk-anak",
+      "Tidak ada hubungan",
+      "Anak-anak",
+      "Akar-anak"
+    ],
+    "answer": "Induk-anak"
+  },
+  {
+    "id": 8,
+    "question": "Node yang digunakan untuk menyimpan teks dalam elemen HTML yaitu …. ",
+    "options": [
+      "Element Node",
+      "Attribute Node",
+      "Text Node",
+      "Root Node",
+      "Sibling Node"
+    ],
+    "answer": "Text Node"
+  },
+  {
+    "id": 9,
+    "question": "Tag <html> disebut sebagai akar dalam DOM Tree karena …. ",
+    "options": [
+      "tag <html> memiliki banyak anak",
+      "tag <html> berada di dalam tag lainnya",
+      "tag <html> adalah elemen utama dalam struktur halaman",
+      "tag <html> tidak memiliki saudara",
+      "tag <html> menyimpan semua teks halaman"
+    ],
+    "answer": "tag <html> adalah elemen utama dalam struktur halaman"
+  },
+  {
+    "id": 10,
+    "question": "Perhatikan struktur dibawah ini! yang menunjukkan hubungan antar elemen di dalam DOM Tree yang benar ialah …. ",
+    "options": [
+      "<body> adalah induk dari <header> dan <nav>",
+      "<ul> adalah induk dari <header>",
+      "<header> adalah induk dari <nav>",
+      "<li> adalah saudara dari <ul>",
+      "<header> adalah saudara dari <body>"
+    ],
+    "answer": "<body> adalah induk dari <header> dan <nav>"
+  }
+]

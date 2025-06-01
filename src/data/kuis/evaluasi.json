@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Seorang siswa membuat halaman HTML dengan elemen berikut. Jika tombol diklik dan teks berhasil berubah, maka dapat disimpulkan bahwa .... ",
+    "image": "/evaluasi/evaluasi_1.png",
+    "options": [
+      "Fungsi ubahParagraf() tidak berjalan dengan baik",
+      "Browser telah mengganti file HTML di server",
+      "DOM berhasil dimanipulasi melalui JavaScript di sisi client",
+      "File HTML utama telah digantikan oleh file baru",
+      "CSS yang digunakan telah memperbarui konten halaman"
+    ],
+    "answer": "DOM berhasil dimanipulasi melalui JavaScript di sisi client"
+  },
+  {
+    "id": 2,
+    "question": "Setelah mengklik sebuah tombol pada halaman web, pengguna melihat bahwa teks di halaman berubah. Namun, ketika ia memuat ulang halaman tersebut, teks kembali seperti semula. Penjelasan yang paling tepat mengenai hal ini….",
+    "options": [
+      "JavaScript menyimpan perubahan secara otomatis di server",
+      "Perubahan yang dilakukan JavaScript hanya bersifat sementara di sisi pengguna (client-side)",
+      "Server menolak perubahan karena ada kesalahan pada HTML",
+      "Browser tidak mendukung fitur JavaScript secara penuh",
+      "File HTML dikunci sehingga tidak bisa dimodifikasi oleh pengguna"
+    ],
+    "answer": "Perubahan yang dilakukan JavaScript hanya bersifat sementara di sisi pengguna (client-side)"
+  },
+  {
+    "id": 3,
+    "question": "Seorang pengembang web ingin memanipulasi elemen <img> yang berada di dalam elemen <div>. Berdasarkan struktur DOM, hubungan antara <div> dan <img> adalah …. ",
+    "options": [
+      "<img> adalah saudara dari <div>",
+      "<div> adalah anak dari <img>",
+      "<img> adalah anak dari <div>",
+      "<div> dan <img> adalah elemen root",
+      "<img> adalah induk dari <div>"
+    ],
+    "answer": "<img> adalah anak dari <div>"
+  },
+  {
+    "id": 4,
+    "question": "Jika kamu mempunyai sebuah elemen <div> dengan atribut class=\"highlight\" dan kamu ingin menghapus atribut tersebut menggunakan JavaScript, node yang kamu modifikasi adalah …. ",
+    "options": [
+      "Text node dari elemen <div> tersebut",
+      "Root node dokumen",
+      "Elemen node <div> secara langsung",
+      "Atribut node dari elemen <div> tersebut",
+      "Sibling node elemen <div> tersebut"
+    ],
+    "answer": "Atribut node dari elemen <div> tersebut"
+  },
+  {
+    "id": 5,
+    "question": "Jika terdapat dua input dengan id yang sama, kemungkinan yang terjadi saat kita akses getElementById(\"email\") adalah …. ",
+    "options": [
+      "Semua nilai digabung dalam array",
+      "Terjadi error syntax",
+      "Hanya elemen pertama yang akan diambil",
+      "Nilai tidak dapat dibaca karena ambigu",
+      "Semua elemen akan terbaca satu per satu"
+    ],
+    "answer": "Hanya elemen pertama yang akan diambil"
+  },
+  {
+    "id": 6,
+    "question": "Jika sebuah dokumen HTML memiliki beberapa elemen dengan class=\"item\" dan kamu ingin mengubah teks hanya pada elemen kedua, metode DOM yang paling tepat digunakan adalah …. ",
+    "options": [
+      "document.getElementById('item')[1]",
+      "document.getElementsByClassName('item')[1]",
+      "document.querySelectorAll('#item')[2]",
+      "document.getElementsByTagName('item')[0]",
+      "document.querySelector('.item')"
+    ],
+    "answer": "document.getElementsByClassName('item')[1]"
+  },
+  {
+    "id": 7,
+    "question": "Perbedaan dari querySelector() dan querySelectorAll() adalah …. ",
+    "options": [
+      "querySelector() mengakses elemen berdasarkan id, sedangkan querySelectorAll() berdasarkan class",
+      "querySelector() mengembalikan elemen pertama yang cocok, sedangkan querySelectorAll() mengembalikan semua elemen yang cocok",
+      "querySelector() hanya untuk <input>, sedangkan querySelectorAll() untuk semua tag",
+      "querySelector() digunakan untuk tag tunggal, sedangkan querySelectorAll() hanya untuk <div>",
+      "Tidak ada perbedaan"
+    ],
+    "answer": "querySelector() mengembalikan elemen pertama yang cocok, sedangkan querySelectorAll() mengembalikan semua elemen yang cocok"
+  },
+  {
+    "id": 8,
+    "question": "Hasil dari kode berikut jika dijalankan adalah ....",
+    "image": "/evaluasi/evaluasi_8.png",
+    "options": [
+      "Elemen saudara sebelumnya yang bertipe elemen",
+      "Node teks atau elemen saudara sebelumnya jika ada",
+      "Elemen induk dari node",
+      "Node berikutnya dari node",
+      "Selalu null"
+    ],
+    "answer": "Node teks atau elemen saudara sebelumnya jika ada"
+  },
+  {
+    "id": 9,
+    "question": "Output dari fungsi dibawah ini adalah ....",
+    "image": "/evaluasi/evaluasi_9.png",
+    "options": [
+      "Semua elemen dengan class .card diwarnai kuning",
+      "Elemen dengan class .card pada posisi genap diwarnai kuning",
+      "Hanya elemen pertama yang diwarnai kuning",
+      "Tidak ada elemen yang diwarnai karena error pada kode",
+      "Elemen pada posisi ganjil diwarnai kuning"
+    ],
+    "answer": "Elemen dengan class .card pada posisi genap diwarnai kuning"
+  },
+  {
+    "id": 10,
+    "question": "Perhatikan kode dibawah ini. Yang terjadi pada elemen <a id=\"profil\"> setelah kode dijalankan adalah ....",
+    "image": "/evaluasi/evaluasi_10.png",
+    "options": [
+      "Tautan tetap sama, hanya teks berubah",
+      "URL tautan berubah menjadi https://example.com/user dan teks menjadi \"Profil Saya\"",
+      "Tautan akan hilang karena setAttribute salah dipakai",
+      "Teks \"Profil Saya\" muncul sebagai HTML mentah (termasuk tag)",
+      "Error karena setAttribute dan textContent tidak bisa dipakai bersamaan"
+    ],
+    "answer": "URL tautan berubah menjadi https://example.com/user dan teks menjadi \"Profil Saya\""
+  },
+  {
+    "id": 11,
+    "question": "Seorang programmer ingin menambahkan sebuah paragraf baru dengan tag <p> tanpa menghapus isi sebelumnya. Manakah cara yang tepat untuk menambahkan paragraf baru tersebut tanpa menghilangkan isi yang lama .... ",
+    "options": [
+      "document.getElementById(\"konten\").innerHTML = \"<p>Paragraf baru</p>\"",
+      "document.getElementById(\"konten\").textContent += \"<p>Paragraf baru</p>\"",
+      "Membuat elemen <p> baru dengan createElement() lalu appendChild() ke elemen \"konten\"",
+      "document.getElementById(\"konten\").remove() lalu buat ulang semua isi",
+      "document.getElementById(\"konten\").setAttribute(\"innerHTML\", \"<p>Paragraf baru</p>\")"
+    ],
+    "answer": "Membuat elemen <p> baru dengan createElement() lalu appendChild() ke elemen \"konten\""
+  },
+  {
+    "id": 12,
+    "question": "Seorang developer ingin mengganti teks di dalam elemen <div id=\"pesan\"> tanpa mengubah struktur HTML di dalamnya. Dibawah ini metode yang paling tepat untuk mengganti hanya teks di dalam elemen tersebut tanpa mengubah struktur HTML nya adalah ....",
+    "options": [
+      "element.innerHTML = \"teks baru\"",
+      "element.textContent = \"teks baru\"",
+      "element.setAttribute(\"text\", \"teks baru\")",
+      "element.remove() lalu buat elemen baru",
+      "element.insertBefore(\"teks baru\")"
+    ],
+    "answer": "element.textContent = \"teks baru\""
+  },
+  {
+    "id": 13,
+    "question": "Perhatikan kode dibawah ini. Yang akan terjadi jika mouse diarahkan ke kotak lalu keluar dari area kotak adalah ....",
+    "image": "/evaluasi/evaluasi_13.png",
+    "options": [
+      "Warna kotak berubah",
+      "Paragraf dengan id \"status\" menampilkan “Mouse keluar dari kotak”",
+      "Kotak menghilang",
+      "Paragraf dengan id \"status\" menjadi kosong",
+      "Tidak terjadi apa-apa"
+    ],
+    "answer": "Paragraf dengan id \"status\" menampilkan “Mouse keluar dari kotak”"
+  },
+  {
+    "id": 14,
+    "question": "Perhatikan kode dibawah ini. Yang terjadi saat mouse diarahkan ke paragraph adalah ....",
+    "image": "/evaluasi/evaluasi_14.png",
+    "options": [
+      "Paragraf menghilang",
+      "Warna tulisan paragraf berubah menjadi biru",
+      "Warna latar paragraf berubah menjadi biru",
+      "Paragraf menjadi tebal",
+      "Tidak terjadi apa-apa"
+    ],
+    "answer": "Warna tulisan paragraf berubah menjadi biru"
+  },
+  {
+    "id": 15,
+    "question": "Perhatikan kode dibawah ini. Yang terjadi ketika tombol diklik adalah ....",
+    "image": "/evaluasi/evaluasi_15.png",
+    "options": [
+      "Kotak berubah menjadi hijau",
+      "Kotak berubah menjadi biru",
+      "Kotak hilang",
+      "Kotak mengecil",
+      "Tidak ada perubahan"
+    ],
+    "answer": "Kotak berubah menjadi biru"
+  },
+  {
+    "id": 16,
+    "question": "Perhatikan kode dibawah ini, yang terjadi ketika tombol “Klik Saya” diklik adalah .... ",
+    "image": "/evaluasi/evaluasi_16.png",
+    "options": [
+      "Hanya alert \"Child diklik\" yang muncul",
+      "Hanya alert \"Parent diklik\" yang muncul",
+      "Tidak ada alert yang muncul",
+      "Alert \"Parent diklik\" muncul lebih dulu",
+      "Kedua alert muncul bersamaan"
+    ],
+    "answer": "Hanya alert \"Child diklik\" yang muncul"
+  },
+  {
+    "id": 17,
+    "question": "Output dari kode dibawah ini adalah .... ",
+    "image": "/evaluasi/evaluasi_17.png",
+    "options": [
+      "1020",
+      "30",
+      "NaN",
+      "Undefined",
+      "10 20"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": 18,
+    "question": "Yang diperiksa dari kode dibawah ini adalah .... ",
+    "image": "/evaluasi/evaluasi_18.png",
+    "options": [
+      "Apakah umur diisi dengan angka",
+      "Apakah umur diisi dengan huruf",
+      "Apakah umur kosong",
+      "Apakah umur bernilai 0",
+      "Apakah umur lebih dari 17"
+    ],
+    "answer": "Apakah umur diisi dengan angka"
+  },
+  {
+    "id": 19,
+    "question": "Cara untuk mengambil nilai dari input dengan id=\"email\" adalah dengan menggunakan …. ",
+    "options": [
+      "document.querySelector(\"#email\").textContent;",
+      "document.getElementById(\"email\").value;",
+      "document.getElementsByTagName(\"email\").text;",
+      "document.getElementById(\"email\").innerHTML;",
+      "document.forms[\"email\"].value;"
+    ],
+    "answer": "document.getElementById(\"email\").value;"
+  },
+  {
+    "id": 20,
+    "question": "Jika input memiliki type=\"email\", validasi yang terjadi yaitu …. ",
+    "options": [
+      "Memastikan input hanya berisi angka",
+      "Memeriksa apakah input mengandung simbol \"@\" dan format email yang valid",
+      "Membatasi panjang karakter maksimal",
+      "Memaksa input hanya menerima huruf kecil",
+      "Mencegah pengguna memasukkan karakter khusus"
+    ],
+    "answer": "Memeriksa apakah input mengandung simbol \"@\" dan format email yang valid"
+  }
+]

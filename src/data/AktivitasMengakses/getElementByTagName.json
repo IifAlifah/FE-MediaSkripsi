@@ -1,0 +1,23 @@
+[
+    {
+      "question": "Lengkapi potongan kode berikut untuk mengakses elemen <span> pada urutan ke-2!",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <title>Aktivitas</title>\n</head>\n<body>\n    <span>Span pertama</span>\n    <span>Span kedua</span>\n    <span>Span ketiga</span>\n\n    <script>\n        var elemenKe1 = document.input(\"input\")[input]; \n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByTagName", "span", "1"]
+    },
+    {
+      "question": "Tuliskan kode untuk mengakses teks dari elemen <h2> pertama.",
+      "code": "var headings = document.getElementsByTagName(\"h2\");\nvar firstHeadingText = input.input;",
+      "correctAnswers": ["headings", "0"]
+    },
+    {
+      "question": "Dalam halaman katalog, daftar nama produk disusun menggunakan tag <li>. Lengkapilah kode berikut untuk menyimpan elemen produk ketiga ke dalam variabel produkKetiga.",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <title>Katalog Produk</title>\n</head>\n<body>\n    <ul>\n        <li>Sepatu</li>\n        <li>Tas</li>\n        <li>Jam Tangan</li>\n    </ul>\n    <script>\n        var produk = document.input(\"li\");\n        var produkKetiga = produk[input];\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByTagName", "2"]
+    },
+    {
+      "question": "Terdapat beberapa elemen <p>, tetapi hanya satu yang memiliki teks \"Selamat Datang\". Lengkapilah kode untuk mengakses semua paragraf dan menyimpan yang teksnya adalah \"Selamat Datang\" ke dalam variabel paragrafUcapan.",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<body>\n    <p>Halo Dunia</p>\n    <p>Selamat Datang</p>\n    <p>Ini Paragraf Lain</p>\n    <script>\n        var semuaParagraf = document.input(\"p\");\n        var paragrafUcapan;\n\n        for (var i = 0; i < semuaParagraf.length; i++) {\n            if (semuaParagraf[i].innerText === \"input\") {\n                paragrafUcapan = semuaParagraf[i];\n            }\n        }\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByTagName", "Selamat Datang"]
+    }
+  ]
+  

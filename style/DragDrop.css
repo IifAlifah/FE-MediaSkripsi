@@ -1,0 +1,117 @@
+.drag-drop-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.dropbox-container {
+    display: flex;
+    justify-content: center; /* Mengatur agar dropbox sejajar di tengah */
+    gap: 20px; /* Jarak antar dropbox */
+    flex-wrap: wrap; /* Agar responsif pada layar kecil */
+}
+  
+.dropbox {
+    flex: 1 1 calc(33.333% - 40px); /* Ukuran fleksibel untuk 3 kolom */
+    max-width: calc(33.333%); /* Membatasi ukuran maksimum */
+    min-height: 150px; /* Tinggi minimum awal */
+    border: 2px dashed #85c1e9;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Item akan tersusun dari atas */
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Menghindari overflow */
+}
+  
+.dropbox h3 {
+    margin-bottom: 10px; /* Jarak dengan item dalam dropbox */
+    font-size: 18px;
+}
+  
+.dropbox .item {
+    margin: 5px; /* Jarak antar item di dalam dropbox */
+}
+
+.instruksi-container {
+    text-align: justify;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #063553;
+    padding: 20px;
+}
+  
+.item-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Elemen tersusun rapi di tengah */
+    gap: 10px; /* Jarak antar item */
+}
+  
+.item {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    padding: 8px 12px;
+    cursor: grab;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+  
+  /* Style untuk tombol */
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    /* background-color: #2194e1; */
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reset {
+    background-color: #4781a7;
+}
+  
+button:hover {
+    background-color: #063553; /* Warna lebih gelap saat hover */
+}
+  
+button:active {
+    background-color: #2194e1; /* Warna lebih gelap saat aktif */
+}
+
+.feedback {
+    margin-top: 10px;
+}
+
+  /* Responsivitas untuk layar sedang */
+  @media (max-width: 768px) {
+    .dropbox {
+      flex: 1 1 calc(50% - 20px); /* Jadi 2 kolom */
+      max-width: calc(50% - 20px);
+    }
+}
+  
+  /* Responsivitas untuk layar kecil */
+ @media (max-width: 576px) {
+    .dropbox {
+      flex: 1 1 100%; /* Jadi 1 kolom */
+      max-width: 100%;
+    }
+}

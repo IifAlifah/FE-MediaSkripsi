@@ -1,0 +1,23 @@
+[
+    {
+      "question": "Lengkapi kode berikut untuk mengecek apakah elemen pertama dengan class 'button' mengandung teks 'Klik di sini'!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div class=\"button\">Klik di sini</div>\n    <div class=\"button\">Tombol lain</div>\n    <script>\n    var buttons = document.input(\"button\");\n        if (input.textContent === \"Klik di sini\") {\n            alert(\"Teks ditemukan!\");\n        }\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByClassName", "buttons[0]"]
+    },
+    {
+      "question": "Lengkapi kode berikut untuk mengakses elemen kedua dengan class \"item\"!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n </head>\n<body>\n    <div class=\"item\">Item 1</div>\n    <div class=\"item\">Item 2</div>\n    <div class=\"item\">Item 3</div>\n\n    <script>\n        var items = document.input(\"input\");\n        alert(input.textContent);\n\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByClassName", "item", "items[1]"]
+    },
+    {
+      "question": "Sebuah situs memiliki beberapa elemen dengan class menu. Lengkapi kode berikut untuk memeriksa apakah elemen ketiga memiliki teks \"Kontak\".",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\"> \n</head>\n<body>\n    <div class=\"menu\">Beranda</div>\n    <div class=\"menu\">Tentang</div>\n    <div class=\"menu\">Kontak</div>\n    <script>\n        var menuItems = document.getElementsByClassName(\"menu\");\n        if (input[input].input === \"Kontak\") {\n            console.log(\"Halaman Kontak ditemukan.\");\n        }\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["menuItems", "2", "textContent"]
+    },
+    {
+      "question": "Pada halaman pendaftaran, terdapat form dengan beberapa tombol. Ambillah teks dari tombol kedua yang memiliki class btn.",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<body>\n    <form>\n        <button class=\"btn\">Kirim</button>\n        <button class=\"btn\">Reset</button>\n    </form>\n    <script>\n        var tombol = document.input(\"input\");\n        var tombolReset = tombol[input].input;\n        alert(tombolReset);\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["getElementsByClassName", "btn", "1", "textContent"]
+    }
+  ]
+  

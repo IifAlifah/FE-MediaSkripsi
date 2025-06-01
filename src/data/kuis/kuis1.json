@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "question": "Perubahan melalui DOM tidak bersifat permanen karena .... ",
+      "options": [
+        "JavaScript tidak mendukung penyimpanan data",
+        "DOM hanya bekerja di server",
+        "DOM hanya memodifikasi tampilan sementara di browser pengguna",
+        "HTML tidak bisa diubah",
+        "Fungsi JavaScript bersifat asinkron"
+      ],
+      "answer": "DOM hanya memodifikasi tampilan sementara di browser pengguna"
+    },
+    {
+      "id": 2,
+      "question": "Yang membedakan DOM dari file HTML biasa adalah .... ",
+      "options": [
+      "DOM hanya menyimpan file CSS",
+      "DOM hanya tersedia di server",
+      "DOM adalah representasi struktur HTML dalam bentuk objek yang bisa dimanipulasi",
+      "DOM tidak bisa diakses melalui JavaScript",
+      "DOM hanya digunakan untuk membuat database"
+      ],
+      "answer": "DOM adalah representasi struktur HTML dalam bentuk objek yang bisa dimanipulasi"
+    },
+    {
+      "id": 3,
+      "question": "Metode pada objek memiliki fungsi untuk …. ",
+      "options": [
+        "Menyimpan nilai tetap",
+        "Mengganti class",
+        "Melakukan suatu aksi terhadap objek",
+        "Menghapus property",
+        "Membuat variabel global"
+      ],
+      "answer": "Melakukan suatu aksi terhadap objek"
+    },
+    {
+      "id": 4,
+      "question": "Elemen HTML seperti <p>, <div>, dan <input> dalam DOM dianggap sebagai …. ",
+      "options": [
+        "Fungsi",
+        "Variabel",
+        "Objek",
+        "Class",
+        "Method"
+      ],
+      "answer": "Objek"
+    },
+    {
+      "id": 5,
+      "question": "Saat pengguna mengklik tombol dan fungsi JavaScript mengubah isi elemen tertentu, peristiwa ini terjadi di ....",
+      "options": [
+        "Server database",
+        "Editor HTML",
+        "Server",
+        "Client (browser)",
+        "Kode sumber HTML"
+      ],
+      "answer": "Client (browser)"
+    },
+    {
+      "id": 6,
+      "question": "Manakah dari berikut ini yang merupakan properti dari objek DOM?",
+      "options": [
+        "setAttribute()",
+        "appendChild()",
+        "innerText",
+        "getElementById()",
+        "createElement()"
+      ],
+      "answer": "innerText"
+    },
+    {
+      "id": 7,
+     "question": "Salah satu contoh manipulasi DOM adalah …. ",
+      "options": [
+        "Mengedit file HTML di server",
+        "Mengatur struktur database",
+        "Mengganti teks elemen menggunakan JavaScript",
+        "Menambahkan file ke server",
+        "Membuat koneksi dengan API"
+      ],
+      "answer": "Mengganti teks elemen menggunakan JavaScript"
+    },
+    {
+      "id": 8,
+      "question": "Objek DOM dapat memiliki metode dan properti. Contoh metode adalah …. ",
+      "options": [
+        "innerText",
+        "style",
+        "id",
+        "appendChild()",
+        "className"
+      ],
+      "answer": "appendChild()"
+    },
+    {
+      "id": 9,
+      "question": "Contoh elemen HTML yang direpresentasikan sebagai objek DOM adalah …. ",
+      "options": [
+        "String",
+        "Number",
+        "<p>",
+        "Math.PI",
+        "JSON.parse()"
+      ],
+      "answer": "<p>"
+    },
+    {
+      "id": 10,
+      "question": "DOM disebut bekerja di sisi client karena ....",
+      "options": [
+        "Server yang mengendalikan struktur HTM",
+        "DOM menyimpan data di database",
+        "Perubahan pada DOM hanya terjadi di browser pengguna",
+        "DOM hanya digunakan dalam server-side scripting",
+        "HTML hanya bisa diakses melalui server"
+      ],
+      "answer": "Perubahan pada DOM hanya terjadi di browser pengguna"
+    }
+  ]
+  

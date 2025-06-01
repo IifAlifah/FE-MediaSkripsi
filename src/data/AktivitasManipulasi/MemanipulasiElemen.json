@@ -1,0 +1,24 @@
+[
+    {
+      "question": "Lengkapilah kode berikut untuk menambahkan elemen baru dengan tag <p> yang berisi teks \"Paragraf baru\" ke dalam elemen dengan id container.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"container\"></div>\n\n    <script>\n        var newElement = document.createElement(\"input\"); \n        newElement.textContent = \"Paragraf baru\"; \n        var container = document.getElementById(\"container\");\n        container.input(newElement); \n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "p", "appendChild"
+      ]
+    },
+    {
+      "question": "Lengkapi kode dibawah ini untuk menghapus elemen <h3> dari dokumen.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <h3 id=\"judul\">Ini Akan Dihapus</h3>\n\n    <script>\n        let judul = document.getElementById(\"judul\");\n        judul.input();\n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "remove"
+      ]
+    },
+    {
+      "question": "Lengkapilah kode berikut agar elemen <h2> dengan teks \"Subjudul Baru\" ditambahkan ke dalam elemen <div id=\"container\"> dan diletakkan sebelum elemen <p>, lalu elemen <p> tersebut dihapus dari halaman.",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Latihan DOM</title>\n</head>\n<body>\n    <div id=\"container\">\n        <p>Paragraf akan dihapus.</p>\n    </div>\n\n    <script>\n        let container = document.getElementById(\"container\");\n        let subjudul = document.createElement(\"h2\");\n        subjudul.textContent = \"Subjudul Baru\";\n\n        let paragraf = container.querySelector(\"p\");\n        container.input(subjudul, input);\n\n        paragraf.input();\n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "insertBefore", "paragraf", "remove"
+      ]
+    }
+  ]
+  

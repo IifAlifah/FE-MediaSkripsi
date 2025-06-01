@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Lengkapi kode berikut agar event pada elemen anak tidak memicu event pada elemen induknya.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"kotak\">\n        <button id=\"tombol\">Klik</button>\n    </div>\n    <script>\n        kotak.addEventListener(\"click\", function() {\n            alert(\"Kotak diklik\");\n        });\n        tombol.addEventListener(\"click\", function(event) {\n            event.input();\n            alert(\"Tombol diklik\");\n        });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["stopPropagation"]
+  },
+  {
+    "question": "Lengkapi kode berikut agar event keydown pada input tidak memicu event pada elemen induknya.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"wrap\">\n        <textarea type=\"text\" id=\"Box\" />\n    </div>\n    <script>\n        wrap.addEventListener(\"keydown\", function() {\n            alert(\"Wrap menerima keydown\");\n        });\n\n        Box.addEventListener(\"keydown\", function(e) {\n            e.input();\n            alert(\"Input menerima keydown\");\n        });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["stopPropagation"]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "question": "Cara untuk mengambil semua elemen input dengan tipe teks (<input type=\"text\">) adalah …. ",
+    "options": [
+      "document.getElementByTagName(\"input\")",
+      "document.querySelectorAll(\"input\")",
+      "document.querySelectorAll(\"input[type='text']\")",
+      "document.getElementsByClassName(\"text-input\")",
+      "document.inputAll(\"text\")"
+    ],
+    "answer": "document.querySelectorAll(\"input[type='text']\")"
+  },
+  {
+    "id": 2,
+    "question": "Dibawah ini perintah yang akan mengambil elemen input pertama dalam dokumen menggunakan selektor CSS adalah …. ",
+    "options": [
+      "document.getElementsByTagName(\"input\")[0]",
+      "document.getElementById(\"input\")[0]",
+      "document.querySelector(\"input\")",
+      "document.forms[0].elements[0]",
+      "document.input[0]"
+    ],
+    "answer": "document.querySelector(\"input\")"
+  },
+  {
+    "id": 3,
+    "question": "Metode yang digunakan untuk mengambil nilai dari input teks dengan ID \"nama\" adalah …. ",
+    "options": [
+      "document.getElementById(\"nama\").text",
+      "document.getElementById(\"nama\").value",
+      "document.querySelector(\"nama\").getValue()",
+      "document.forms[\"nama\"].inputValue",
+      "document.getElementsByTagName(\"nama\")[0].innerHTML"
+    ],
+    "answer": "document.getElementById(\"nama\").value"
+  },
+  {
+    "id": 4,
+    "question": "Hasil dari kode dibawah ini adalah ....",
+    "image": "/kuis/kuis6_no4.png",
+    "options": [
+      "undefined",
+      "null",
+      "Ari",
+      "user",
+      "error"
+    ],
+    "answer": "Ari"
+  },
+  {
+    "id": 5,
+    "question": "Kamu diminta membuat form input usia yang hanya menerima angka antara 18 hingga 60. Cara terbaik untuk memvalidasi ini dengan JavaScript adalah …. ",
+    "options": [
+      "Menggunakan type=\"text\" dan memeriksa panjang input",
+      "Menggunakan type=\"email\" agar data lebih aman",
+      "Menggunakan type=\"number\" dan memeriksa nilai dengan kondisi if",
+      "Menambahkan maxlength=\"2\" agar tidak lebih dari 2 digit",
+      "Menggunakan required saja sudah cukup"
+    ],
+    "answer": "Menggunakan type=\"number\" dan memeriksa nilai dengan kondisi if"
+  },
+  {
+    "id": 6,
+    "question": "Jika ingin mengambil nilai dari input <input type=\"email\" id=\"userEmail\"> menggunakan JavaScript, perintah yang tepat adalah …. ",
+    "options": [
+      "document.getElementsByName(\"userEmail\").value",
+      "document.getElementById(\"userEmail\").value",
+      "document.querySelector(\"email\").text",
+      "document.getElementById(\"userEmail\").innerHTML",
+      "document.forms[0].userEmail.text"
+    ],
+    "answer": "document.getElementById(\"userEmail\").value"
+  },
+  {
+    "id": 7,
+    "question": "Jika input memiliki type=\"email\", validasi yang terjadi yaitu …. ",
+    "options": [
+      "Memastikan input hanya berisi angka",
+      "Memeriksa apakah input mengandung simbol \"@\" dan format email yang valid",
+      "Membatasi panjang karakter maksimal",
+      "Memaksa input hanya menerima huruf kecil",
+      "Mencegah pengguna memasukkan karakter khusus"
+    ],
+    "answer": "Memeriksa apakah input mengandung simbol \"@\" dan format email yang valid"
+  },
+  {
+    "id": 8,
+    "question": "Dibawah ini pernyataan yang benar terkait atribut required dalam validasi form adalah …. ",
+    "options": [
+      "Hanya bisa dipakai pada elemen <input type=\"text\">",
+      "Mengharuskan pengguna mengisi input sebelum form dikirim",
+      "Memvalidasi format email secara otomatis",
+      "Mengatur panjang minimum karakter input",
+      "Membatasi jumlah maksimal karakter input"
+    ],
+    "answer": "Mengharuskan pengguna mengisi input sebelum form dikirim"
+  },
+  {
+    "id": 9,
+    "question": "Perhatikan kode input dibawah ini. Yang akan terjadi jika pengguna mengisi username dengan \"abc\" ....",
+    "image": "/kuis/kuis6_no9.png",
+    "options": [
+      "Form akan tetap terkirim tanpa peringatan",
+      "Form akan menolak pengiriman karena input kurang dari 5 karakter",
+      "Form akan menolak pengiriman karena input lebih dari 10 karakter",
+      "Form otomatis memotong input menjadi 5 karakter",
+      "Form akan terkirim dan memunculkan alert"
+    ],
+    "answer": "Form akan menolak pengiriman karena input kurang dari 5 karakter"
+  },
+  {
+    "id": 10,
+    "question": "Anda ingin memastikan input email di form tidak kosong dan memiliki format yang benar. Dibawah ini kode yang paling tepat adalah….",
+    "options": [
+      "<input type=\"text\" id=\"email\" required>",
+      "<input type=\"email\" id=\"email\" required>",
+      "<input type=\"email\" id=\"email\">",
+      "<input type=\"text\" id=\"email\" pattern=\"[a-z0-9]+@[a-z]+\\.[a-z]{2,3}\" required>",
+      "<input type=\"text\" id=\"email\" maxlength=\"30\">"
+    ],
+    "answer": "<input type=\"email\" id=\"email\" required>"
+  }
+]

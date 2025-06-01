@@ -1,0 +1,16 @@
+[
+  {
+    "question": "Lengkapi kode berikut untuk mengganti teks dalam elemen dengan id=\"intro-text\" menjadi \"Selamat datang di dunia JavaScript!\". Ubah elemen tersebut tanpa mempengaruhi elemen-elemen di dalamnya.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"intro-text\">Teks lama</div>\n    \n    <script>\n        var introText = document.getElementById(\"intro-text\");\n        input.input = \"input\";\n    </script>\n</body>\n</html>",
+    "correctAnswers": [
+      "introText", "textContent", "Selamat datang di dunia JavaScript!"
+    ]
+  },
+  {
+    "question": "Lengkapi kode berikut agar elemen dengan id info menampilkan sebuah heading <h3>Judul Baru</h3>",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"info\">Konten lama</div>\n    \n    <script>\n        var info = document.getElementById(\"info\");\n        input.input = \"input\";\n    </script>\n</body>\n</html>",
+    "correctAnswers": [
+      "info", "innerHTML", "<h3>Judul Baru</h3>"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+    {
+      "question": "Lengkapi kode dibawah ini untuk mengubah ukuran font elemen paragraf menjadi 20px.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <p id=\"text\">Ini adalah teks yang akan diubah ukurannya dan diberi margin.</p>\n\n    <script>\n        var text = document.getElementById(\"text\");\n        input.input.fontSize = \"input\"; \n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "text", "style", "20px"
+      ]
+    },
+    {
+      "question": "Lengkapi kode dibawah ini untuk mengubah lebar gambar foto menjadi 250px dan tambahkan border-radius 12px.",
+      "code": "<!DOCTYPE html>\n<html>\n<body>\n    <img id=\"foto\" src=\"https://via.placeholder.com/100\">\n    <script>\n        var foto = document.getElementById(\"foto\");\n        input.input.width = \"input\";\n        foto.input.borderRadius = \"input\";\n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "foto", "style", "250px", "style", "12px"
+      ]
+    },
+    {
+      "question": "Lengkapi kode dibawah ini, ubah warna latar belakang menjadi hijau dan lebar elemen menjadi 200px.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <div id=\"box\" style=\"width: 100px; height: 100px; background-color: blue;\"></div>\n\n    <script>\n        var box = document.getElementById(\"box\");\n        input.input.backgroundColor = \"green\"; \n        box.input.input = \"200px\"; \n    </script>\n</body>\n</html>",
+      "correctAnswers": [
+        "box", "style", "style", "width"
+      ]
+    }
+  ]
+  

@@ -1,0 +1,78 @@
+/* KodeEditor.css */
+.editor-output-container {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.editor-container {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden;  
+    height: auto; 
+    min-height: 300px;  
+    padding: 10px;
+    resize: vertical;  
+    flex-grow: 1;  
+}
+
+.output-container {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    min-height: 100px;  
+    padding: 10px;
+    flex-grow: 0;  
+    overflow: hidden; 
+    height: auto; 
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-box h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start; 
+}
+
+.button-container button {
+    margin: 0;
+}
+
+
+/* .button-container button:nth-child(3) {
+    margin-left: auto; 
+} */

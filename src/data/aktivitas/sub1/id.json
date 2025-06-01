@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Lengkapi potongan kode berikut untuk mengakses elemen <p> dengan Id paragraf!",
+        "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Aktivitas: Akses dan Tampilkan ID</title>\n</head>\n<body>\n    <p id=\"paragraf\">Ini adalah paragraf yang akan diakses.</p>\n    <script>\n        var paragrafElemen = document.input(\"paragraf\");  \n    </script>\n</body>\n</html>",
+        "correctAnswers": ["getElementById"]
+    },
+    {
+      "question": "Lengkapi kode berikut untuk mengakses elemen dengan Id message dan menampilkan elemen yang diakses dalam alert!",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Contoh Mengakses Elemen</title>\n</head>\n<body>\n\n    <div id=\"message\">Halo, selamat datang</div>\n    <div id=\"content\">Konten utama halaman</div>\n\n    <script>\n        var element = input;\n        alert(input.innerHTML);\n    </script>\n\n</body>\n</html>",
+      "correctAnswers": ["document.getElementById(\"message\")", "element"]
+    }
+]
+  

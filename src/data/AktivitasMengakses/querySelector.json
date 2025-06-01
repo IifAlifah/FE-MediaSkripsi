@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Isilah potongan kode berikut untuk mengakses elemen pertama dengan tag p dan menampilkan teksnya.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <p>Paragraf pertama</p>\n    <p>Paragraf kedua</p>\n    <script>\n        var paragraph = input.input(\"input\");\n        alert(paragraph.textContent);\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["document", "querySelector", "p"]
+    },
+    {
+      "question": "Isilah potongan kode berikut untuk mengakses semua elemen dengan tag li di dalam elemen dengan id menu dan menampilkan teks dari masing-masing elemen.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <ul id=\"menu\">\n        <li>Menu 1</li>\n        <li>Menu 2</li>\n        <li>Menu 3</li>\n    </ul>\n    <script>\n        var menuItems = input.input(\"input\");\n        menuItems.forEach(function(item, index) {\n            alert(\"Menu ke-\" + (index + 1) + \": \" + item.innerHTML);\n        });\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["document", "querySelectorAll", "#menu li"]
+    },
+    {
+      "question": "Lengkapilah kode berikut untuk mengakses semua elemen <li> yang berada di dalam elemen dengan class fitur, lalu tampilkan isi teksnya satu per satu.",
+      "code": "<!DOCTYPE html>\n<html lang=\"id\">\n<body>\n    <ul class=\"fitur\">\n        <li>Gratis Ongkir</li>\n        <li>Diskon 50%</li>\n        <li>Garansi 1 Tahun</li>\n    </ul>\n    <script>\n        var fiturList = input.input(\"input\");\n        fiturList.forEach(function(item) {\n            console.log(item.textContent);\n        });\n    </script>\n</body>\n</html>",
+      "correctAnswers": ["document", "querySelectorAll", ".fitur li"]
+    }
+  ]
+  

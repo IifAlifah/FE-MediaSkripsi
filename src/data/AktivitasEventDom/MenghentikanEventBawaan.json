@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Lengkapilah kode berikut untuk mencegah pengiriman formulir secara otomatis ketika tombol submit diklik dan tampilkan alert 'Formulir tidak terkirim!' sebagai gantinya.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <form id=\"myForm\">\n        <textarea type=\"text\" placeholder=\"Masukkan nama\" required>\n        <button type=\"submit\">Kirim</button>\n    </form>\n\n    <script>\n        var form = document.getElementById(\"myForm\");\n        form.addEventListener(\"submit\", function(event) {\n            input;\n            alert(\"input\");\n        });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["event.preventDefault()", "Formulir tidak terkirim!"]
+  },
+  {
+    "question": "Lengkapilah kode berikut agar saat tautan diklik, pengguna tidak diarahkan ke URL, dan tampil alert sebagai gantinya.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <a href=\"https://example.com\" id=\"link\">Buka Situs</a>\n    <script>\n    var a = document.getElementById(\"link\");\n    a.addEventListener(\"click\", function(event) {\n        input;\n        alert(\"Tautan dibatalkan.\");\n    });\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["event.preventDefault()"]
+  }
+]

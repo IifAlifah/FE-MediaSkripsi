@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Lengkapi agar tombol menampilkan \"Halo Dunia!\" saat diklik secara inline.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button input=\"input(\"input\")\">Klik Saya</button>\n</body>\n</html>",
+    "correctAnswers": ["onclick", "alert", "Halo Dunia!"]
+  },
+  {
+    "question": "Lengkapilah kode berikut sehingga ketika tombol diklik dua kali, muncul alert 'Klik ganda terjadi!'",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n  <button id=\"btn\">Klik dua kali</button>\n  <script>\n    var btn = document.getElementById(\"btn\");\n    btn.input(\"input\", function() {\n      input(\"Klik ganda terjadi!\");\n    });\n  </script>\n</body>\n</html>",
+    "correctAnswers": ["addEventListener", "dblclick", "alert"]
+  },
+  {
+    "question": "Lengkapi kode JavaScript untuk menetapkan event handler melalui properti.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button id=\"btn\">Klik</button>\n    <script>\n    const btn = document.getElementById(\"btn\");\n    btn.input = function() {\n        alert(\"Properti handler!\");\n    };\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["onclick"]
+  },
+  {
+    "question": "Lengkapi kode berikut sehingga tombol hanya bisa diklik sekali saja. Setelah diklik, event listener dihapus.",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n    <button id=\"myButton\">Klik saya</button>\n    <script>\n        function handleClick() {\n            alert(\"Tombol diklik!\");\n            button.input(\"click\", input);\n        }\n\n        var button = document.getElementById(\"myButton\");\n        button.input(\"click\", handleClick);\n    </script>\n</body>\n</html>",
+    "correctAnswers": ["removeEventListener", "handleClick", "addEventListener"]
+  }
+]

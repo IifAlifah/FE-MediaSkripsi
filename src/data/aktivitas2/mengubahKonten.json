@@ -1,0 +1,13 @@
+[
+    {
+      "question": "Lengkapi kode berikut untuk mengganti teks dalam elemen dengan id=\"intro-text\" menjadi \"Selamat datang di dunia JavaScript!\". Ubah elemen tersebut tanpa mempengaruhi elemen-elemen di dalamnya.",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Text Content Latihan</title>\n</head>\n<body>\n<div id=\"intro-text\">Teks lama</div>\n<script>\nvar introText = document.getElementById('intro-text');\ninput;\n</script>\n</body>\n</html>",
+      "correctAnswers": ["introText.textContent = 'Selamat datang di dunia JavaScript!'"]
+    },
+    {
+      "question": "Gantilah seluruh konten dalam elemen dengan id=\"info\" untuk menambahkan elemen baru seperti <h3>Judul Baru</h3> dan <p>Konten baru yang mengandung <strong>HTML</strong></p>",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Latihan</title>\n</head>\n<body>\n<div id=\"info\">Konten lama</div>\n<script>\nvar info = document.getElementById('info');\ninput;\n</script>\n</body>\n</html>",
+      "correctAnswers": ["info.innerHTML = '<h3>Judul Baru</h3><p>Konten baru yang mengandung <strong>HTML</strong></p>'"]
+    }
+  ]
+  
